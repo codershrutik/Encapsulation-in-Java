@@ -8,7 +8,18 @@ public class Main{
         // System.out.println(person);
 
         //Polymorphism
-        Phone phone = new Phone();
+        // Phone phone = new Phone();
+        // phone.feature();
+
+        // Nokia3310 nokia = new Nokia3310();
+        // nokia.feature();
+
+        // iPhone iphone = new iPhone();
+        // iphone.feature();
+
+        //reference to phone object
+        Phone phone;
+        phone = new Nokia3310();
         phone.feature();
     }
 }
