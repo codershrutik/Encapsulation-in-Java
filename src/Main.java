@@ -8,5 +8,7 @@ public class Main{
         // System.out.println(person);
 
         //Polymorphism
+        Phone phone = new Phone();
+        phone.feature();
     }
 }
